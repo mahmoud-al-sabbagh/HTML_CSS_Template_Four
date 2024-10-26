@@ -1,0 +1,297 @@
+:root {
+    --blue-color:#0075ff;
+    --blue-alt-color:#0d69d5;
+    --orange-color:#f59e0b;
+    --green-color:#22c55e;
+    --red-color:#ff4336;
+    --gray-color:#888;
+}
+/* Start Box */
+.d-block {
+    display: block;
+}
+.d-flex {
+    display: flex;
+}
+.flex-1 {
+    flex: 1;
+}
+.fd-column {
+    flex-direction: column;
+}
+.align-c {
+    align-items: center;
+}
+.space-between {
+    justify-content: space-between;
+}
+.space-evenly {
+    justify-content: space-evenly;
+}
+.f-wrap {
+    flex-wrap: wrap;
+}
+.fb-45 {
+    flex-basis: 45%;
+}
+.d-grid {
+    display: grid;
+}
+.gap-20 {
+    gap: 20px;
+}
+.gap-5 {
+    gap: 5px;
+}
+@media (max-width: 767px) {
+    .block-mobile {
+        display: block;
+    }
+    .hide-mobile {
+        display: none;
+    }
+    .fb100-mobile {
+        flex-basis: 100%;
+    }
+}
+/* Start Padding & Margin */
+.p-5 {
+    padding: 5px;
+}
+.p-10 {
+    padding: 10px;
+}
+.pb-10 {
+    padding-bottom: 10px;
+}
+.p-15 {
+    padding: 20px;
+}
+.pb-15 {
+    padding-bottom: 15px;
+}
+.p-20 {
+    padding: 20px;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+.pl-20 {
+    padding-left: 20px;
+}
+.m-0 {
+    margin-top: 0;
+}
+.mt-0 {
+    margin-top: 0;
+}
+.mb-0 {
+    margin-bottom: 0;
+}
+.mt-5 {
+    margin-top: 5px;
+}
+.mr-5 {
+    margin-right: 5px;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.m-15 {
+    margin: 15px;
+}
+.mt-15 {
+    margin-top: 15px;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.m-20 {
+    margin: 20px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mr-20 {
+    margin-right: 20px;
+}
+.mr-10 {
+    margin-right: 10px;
+}
+.ml-20 {
+    margin-left: 20px;
+}
+.ml-10 {
+    margin-left: 10px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mb-25 {
+    margin-bottom: 25px;
+}
+.w-fit {
+    width: fit-content;
+}
+.w-full {
+    width: 100%;
+}
+/* End Padding & Margin */
+/* Start Border */
+.rad-10 {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.rad-6 {
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.b-none {
+    border: none;
+}
+.bb-eee {
+    border-bottom: 1px solid #eee;
+}
+.b-ccc {
+    border: 1px solid #ccc;
+}
+.b-eee {
+    border: 1px solid #eee;
+}
+/* End Border */
+/* Start Color */
+.bg-white {
+    background-color: white;
+}
+.bg-eee {
+    background-color: #eee;
+}
+.bg-blue {
+    background-color: var(--blue-color);
+}
+.bg-blue2 {
+    background-color: var(--blue-alt-color);
+}
+.bg-orange {
+    background-color: var(--orange-color);
+}
+.bg-red {
+    background-color: var(--red-color);
+}
+.bg-gray {
+    background-color: var(--gray-color);
+}
+.bg-green {
+    background-color: var(--green-color);
+}
+.c-black {
+    color: #000;
+}
+.c-white {
+    color: white;
+}
+.c-gray {
+    color: var(--gray-color);
+}
+.c-blue {
+    color: var(--blue-color);
+}
+.c-blue2 {
+    color: var(--blue-alt-color);
+}
+.c-orange {
+    color: var(--orange-color);
+}
+.c-green {
+    color: var(--green-color);
+}
+.c-red {
+    color: var(--red-color);
+}
+/* End Color */
+/* Start Position */
+.p-relative {
+    position: relative;
+}
+/* End Position */
+/* Start Font */
+.fs-14 {
+    font-size: 14px;
+}
+.fs-15 {
+    font-size: 15px;
+}
+.fs-18 {
+    font-size: 18px;
+}
+.fs-25 {
+    font-size: 25px;
+}
+.fs-30 {
+    font-size: 30px;
+}
+.fw-bold {
+    font-weight: bold;
+}
+.txt-c {
+    text-align: center;
+}
+.txt-l {
+    text-align: left;
+}
+@media (max-width: 767px) {
+    .txt-c-mobile {
+        text-align: center;
+    }
+}
+/* End Font */
+/* Start Components */
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.between-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (max-width: 767px) {
+    .start-flex-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}
+.end-flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.btn-shape {
+    padding: 4px 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+/* End Components */
